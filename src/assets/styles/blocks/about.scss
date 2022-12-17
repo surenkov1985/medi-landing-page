@@ -1,0 +1,62 @@
+.section {
+
+    &__about {
+        width: 100%;
+        display: flex;
+        padding: 80px 0 40px;
+    }
+
+    &__card {
+        width: 40.7%;
+        min-height: 580px;
+        display: flex;
+        flex-direction: column;
+
+        &-description {
+            background: #00868A;
+            height: 60.4%;
+            padding: 35px 40px 45px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &-text {
+                font-size: 30px;
+                line-height: 150%;
+                color: #FFFFFF;
+            }
+        }
+
+        &-btn {
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: 'Gilroy Bold';
+            font-size: 16px;
+            line-height: 150%;
+            column-gap: 20px;
+            cursor: pointer;
+
+            &>svg {
+                width: 50px;
+                height: 40px;
+            }
+        }
+
+        &-image {
+            background: url("/assets/images/face.png");
+            background-repeat: no-repeat;
+            height: 39.7%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        &-name {
+            background: #4FBFA5;
+            padding: 10px 15px;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+}

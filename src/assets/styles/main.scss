@@ -1,6 +1,8 @@
 @import "./fonts/fonts.css";
 @import "./utils/reset.scss";
 @import "./blocks/header.scss";
+@import "./blocks/content.scss";
+@import "./blocks/about.scss";
 
 * {
     font-family: "Gilroy Medium";
@@ -25,5 +27,5 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1296px;
 }

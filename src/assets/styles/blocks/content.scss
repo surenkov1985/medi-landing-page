@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
