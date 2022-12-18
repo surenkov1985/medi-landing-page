@@ -1,0 +1,81 @@
+.news {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    &__list {
+        width: 40.7%;
+        display: flex;
+        flex-direction: column;
+        background: #4FBFA5;
+    }
+
+    &__item {
+        padding: 35px 40px;
+        display: flex;
+
+        &:first-child {
+            padding: 35px 40px 30px;
+        }
+
+        &-name {
+            background: #00868A;
+            padding: 10px 15px 9px;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+
+        &.btn {
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover {
+                background: #00868A;
+            }
+
+            &.active {
+                background: #00868A;
+                cursor: default;
+            }
+        }
+    }
+
+    &__description {
+        width: 59.3%;
+        background: rgba(#00868A, 0.1);
+        padding: 35px 60px;
+
+        &-list {
+            margin-top: 25px;
+        }
+
+        &-item {
+            margin-bottom: 14px;
+            padding-left: 20px;
+            line-height: 150%;
+            font-size: 14px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                left: 0;
+                top: 7px;
+                content: " ";
+                width: 6px;
+                height: 6px;
+                border-radius: 2px;
+                background: #4FBFA5;
+            }
+        }
+    }
+
+    &__title {
+        font-family: 'Gilroy Bold';
+        font-size: 24px;
+        line-height: 150%;
+    }
+}
